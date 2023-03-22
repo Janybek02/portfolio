@@ -1,0 +1,296 @@
+@media (max-width: 1315px) {
+  .home-main {
+    margin: 100px 55px 0px 55px;
+  }
+  .home-main-div {
+    padding: 60px 0 0 0;
+  }
+  .home-main-div-i {
+    padding: 20px;
+  }
+  .home-main-div-i i {
+    font-size: 25px;
+  }
+  .home-main-center {
+    width: 500px;
+  }
+  .home-main-center-div {
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+    align-items: center;
+    width: 300px;
+  }
+  .home-main-center-div-div {
+    width: 70px;
+    height: 2px;
+    background: #272727;
+  }
+  .home-main-center-div p {
+    margin: 0px 20px 0 0;
+  }
+  .home-main-center h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+  }
+  .home-main-center p {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+  }
+  .home-main-left {
+    padding: 20px 0 0 0;
+  }
+  .home-main-left img {
+    border: 4px solid #0F0742;
+    border-radius: 54% 46% 32% 68%/53% 50% 50% 47%;
+  }
+  .home-scroll {
+    padding: 80px 0px 0px 140px;
+    width: 100px;
+    position: relative;
+  }
+  .home-scroll p {
+    rotate: -90deg;
+    position: absolute;
+    top: 1px;
+    left: 110px;
+  }
+  .home-scroll a {
+    color: #272727;
+    position: relative;
+    top: 0;
+    left: 1px;
+    font-size: 25px;
+    animation: myfirst 2s linear 2s infinite alternate;
+  }
+  .portfolio-main-page {
+    margin: 50px 0 0 0;
+  }
+  .contact-talk-div button .fa-arrow-right {
+    color: #272727;
+    font-size: 12px;
+  }
+  .contact-massage {
+    height: 200px;
+  }
+  .contact-massage h1 {
+    font-size: 40px;
+    color: #272727;
+    font-family: "Nunito", sans-serif;
+  }
+  .contact-massage-div-main {
+    position: relative;
+    height: 50px;
+    width: 350px;
+    border: 2px solid #272727;
+    display: flex;
+  }
+  .contact-massage-div-main p {
+    color: #272727;
+    font-family: "Nunito", sans-serif;
+    top: 0;
+    position: absolute;
+  }
+  .contact-massage-div-main input {
+    width: 100%;
+    border: none;
+    background: none;
+  }
+}
+@media (max-width: 1406px) {
+  .skills-task {
+    margin: 100px 140px 0 140px;
+  }
+}
+@media (max-width: 1267px) {
+  .about-main {
+    margin: 50px 80px 0 80px;
+  }
+}
+@media (max-width: 1205px) {
+  .home-main {
+    padding: 20px 0 20px 0;
+    margin: 100px 20px 0px 20px;
+  }
+  .home-main-div {
+    padding: 60px 0 0 0;
+  }
+  .home-main-div-i {
+    padding: 20px;
+  }
+  .home-main-div-i i {
+    font-size: 25px;
+  }
+  .home-main-center {
+    width: 500px;
+  }
+  .home-main-center-div {
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+    align-items: center;
+    width: 300px;
+  }
+  .home-main-center-div-div {
+    width: 70px;
+    height: 2px;
+    background: #272727;
+  }
+  .home-main-center-div p {
+    margin: 0px 20px 0 0;
+  }
+  .home-main-center h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+  }
+  .home-main-center p {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+  }
+  .home-main-left {
+    padding: 20px 0 0 0;
+  }
+  .home-main-left img {
+    border: 4px solid #0F0742;
+    border-radius: 54% 46% 32% 68%/53% 50% 50% 47%;
+  }
+  .home-scroll {
+    padding: 80px 0px 0px 140px;
+    width: 100px;
+    position: relative;
+  }
+  .home-scroll p {
+    rotate: -90deg;
+    position: absolute;
+    top: 1px;
+    left: 110px;
+  }
+  .home-scroll a {
+    color: #272727;
+    position: relative;
+    top: 0;
+    left: 1px;
+    font-size: 25px;
+    animation: myfirst 2s linear 2s infinite alternate;
+  }
+  .skills-task {
+    margin: 100px 60px 0 60px;
+  }
+  .contact-talk-div button .fa-arrow-right {
+    color: #272727;
+    font-size: 12px;
+  }
+  .contact-massage {
+    height: 200px;
+  }
+  .contact-massage h1 {
+    font-size: 40px;
+    color: #272727;
+    font-family: "Nunito", sans-serif;
+  }
+  .contact-massage-div-main {
+    position: relative;
+    height: 50px;
+    width: 350px;
+    border: 2px solid #272727;
+    display: flex;
+  }
+  .contact-massage-div-main p {
+    color: #272727;
+    font-family: "Nunito", sans-serif;
+    top: 0;
+    position: absolute;
+  }
+  .contact-massage-div-main input {
+    width: 100%;
+    border: none;
+    background: none;
+  }
+}
+@media (max-width: 1100px) {
+  .home-main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-main {
+    margin: 50px 30px 0 30px;
+  }
+  .skills-task {
+    margin: 100px 15px 0 15px;
+  }
+}
+@media (max-width: 950px) {
+  .about-main-work {
+    margin: 45px 0 45px 0px;
+  }
+}
+@media (max-width: 928px) {
+  .home-scroll {
+    top: -170px;
+  }
+}
+@media (max-width: 928px) {
+  .portfolio-main-button button {
+    width: 150px;
+  }
+  .home-scroll {
+    top: -170px;
+  }
+}
+@media (max-width: 601px) {
+  .about-main-img img {
+    width: 100%;
+  }
+  .about-main-work {
+    width: 100%;
+  }
+  .about-main-work-page {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-main-work-page-div {
+    margin: 10px;
+  }
+  .skills-task {
+    margin: 10px 25px 0 25px;
+  }
+  .skills-task-front {
+    max-width: 100%;
+  }
+}
+@media (max-width: 620px) {
+  .home-main {
+    padding: 0px 0 20px 0;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .home-main-div {
+    display: flex;
+    padding: 0;
+  }
+}
+@media (max-width: 470px) {
+  .header-main-page .house i {
+    font-size: 15px;
+  }
+  .header-main-page .house i p {
+    font-size: 15px;
+  }
+  .portfolio-main-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .portfolio-main-button button {
+    margin: 5px;
+  }
+  .portfolio-main-page-div {
+    width: 100%;
+  }
+  .portfolio-main-page-div img {
+    width: 85%;
+  }
+}/*# sourceMappingURL=contact.css.map */
