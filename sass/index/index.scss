@@ -11,10 +11,16 @@ html{
 
 
 .header{
-  margin: 0 auto;
+  // margin: 0 auto;
   max-width: 100%;
   position: fixed;
-  top: 650px;
+  top: 89vh;
+  // position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  // width: 100px;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -74,7 +80,7 @@ html{
   width: 100%;
   position: fixed;
   text-align: center;
-  top: 690px;
+  top: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
