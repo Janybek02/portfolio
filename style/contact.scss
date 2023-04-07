@@ -470,5 +470,12 @@
     }
   }
 }
+@media (max-width: 440px) {
+  .skills{
+    &-task{
+      margin: 10px 0px 0 0px;
+    }
+  }
+}
   
 
