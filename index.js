@@ -138,6 +138,49 @@ const scroll = (event) =>{
 
 document.addEventListener("scroll", (scroll))
 
-
-
+const skills_1 = document.querySelector(".skills-task-front") 
+const skills_2 = document.querySelector("#skills-task-front") 
+const scrolle = (event) =>{
+      const position = event.target.scrollingElement.scrollTop
+      console.log(position);
+      if (innerWidth > 926 ) {
+        if (position > 1165){
+          console.log(1)
+          skills_1.style.opacity = 1
+          skills_1.style.transition = "0.5s"
+          skills_1.style.scale = 1
+        } else {
+          skills_1.style.opacity = 0
+          skills_1.style.scale = 0
+        }
+        if (position > 1165){
+          skills_2.style.opacity = 1
+          skills_2.style.transition = "0.5s"
+          skills_2.style.scale = 1
+        } else {
+          skills_2.style.opacity = 0
+          skills_2.style.scale = 0
+        }
+       
+      }else {
+        if (position > 1645){
+          console.log(2)
+          skills_1.style.opacity = 1
+          skills_1.style.transition = "0.5s"
+          skills_1.style.scale = 1
+        } else {
+          skills_1.style.opacity = 0
+          skills_1.style.scale = 0
+        }
+        if (position > 1963){
+          skills_2.style.opacity = 1
+          skills_2.style.transition = "0.5s"
+          skills_2.style.scale = 1
+        } else {
+          skills_2.style.opacity = 0
+          skills_2.style.scale = 0
+        }
+      }
+}
+document.addEventListener("scroll", scrolle)
 
