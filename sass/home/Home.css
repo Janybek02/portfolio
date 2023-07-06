@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+@media (max-width: 450px) {
+  .container {
+    margin: 0 5px;
+  }
+}
 .home {
   font-family: "Nunito", sans-serif;
   width: 1550px;
@@ -131,6 +136,7 @@
 @media (max-width: 615px) {
   .home-main {
     flex-direction: column-reverse;
+    margin: 3% 0 0 0;
   }
   .home-main-center {
     width: 100%;
@@ -138,5 +144,16 @@
   .home-main-div {
     display: flex;
     padding: 20px 0 0 0;
+  }
+}
+@media (max-width: 300px) {
+  .home-main-center-div {
+    width: 100%;
+  }
+  .home-main-center-div-div {
+    width: 50px;
+  }
+  .home-main-left img {
+    width: 100%;
   }
 }/*# sourceMappingURL=Home.css.map */

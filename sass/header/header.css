@@ -1,7 +1,7 @@
 .header {
   width: 97%;
   position: fixed;
-  top: 80vh;
+  top: 85vh;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -93,5 +93,14 @@
 @media (max-width: 750px) {
   .header-main-page .house p {
     font-size: 18px;
+  }
+}
+@media (max-width: 400px) {
+  .header-main {
+    height: 50px;
+    width: 100%;
+  }
+  .header-main-page .house p {
+    display: none;
   }
 }/*# sourceMappingURL=header.css.map */

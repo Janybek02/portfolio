@@ -91,4 +91,32 @@
   .about {
     width: 100%;
   }
+}
+@media (max-width: 480px) {
+  .about {
+    width: 100%;
+  }
+  .about-main-work {
+    width: 100%;
+  }
+  .about-main-work-page {
+    width: 100%;
+  }
+}
+@media (max-width: 410px) {
+  .about-main {
+    margin: 0;
+  }
+  .about-main-work-page {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .about-main-work-page-div {
+    margin: 0 5px;
+  }
+  .about-main-img img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=About.css.map */

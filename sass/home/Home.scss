@@ -1,9 +1,17 @@
+
+
 .container{
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+}
+@media (max-width : 450px) {
+  .container{
+    margin: 0 5px;
+  }
 }
 
 .home{
@@ -143,6 +151,8 @@
   .home{
     &-main{
       flex-direction: column-reverse;
+    margin: 3% 0 0 0;
+
       &-center{
         width: 100%;
       }
@@ -150,6 +160,29 @@
         display: flex;
         // flex-direction: column;
         padding: 20px 0 0 0 ;
+      }
+    }
+  }
+}
+@media (max-width: 300px) {
+  .home{
+    &-main{
+     
+      &-center{
+        &-div{
+          width: 100%;
+          &-div{
+            width: 50px;
+          }
+        }
+      }
+      &-div{
+       
+      }
+      &-left{
+        img{
+          width: 100%;
+        }
       }
     }
   }

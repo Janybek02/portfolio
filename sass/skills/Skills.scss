@@ -80,3 +80,14 @@
     }
   }
 }
+@media (max-width: 415px) {
+  .skills{
+    width: 100%;
+    &-task{
+      &-front{
+        margin: 20px 0;
+      }
+      
+    }
+  }
+}

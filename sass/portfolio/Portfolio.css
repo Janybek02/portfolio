@@ -41,7 +41,7 @@
 }
 .portfolio-main-page-div {
   width: 400px;
-  height: 370px;
+  padding: 0 0 20px 0;
   background: white;
   border-radius: 20px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
@@ -71,5 +71,26 @@
 @media (max-width: 1200px) {
   .portfolio {
     width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .portfolio {
+    width: 100%;
+  }
+  .portfolio-main-page {
+    margin: 50px 0 0 0;
+    text-align: center;
+  }
+  .portfolio-main-page-div {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 400px) {
+  .portfolio-main-page-div {
+    width: 100%;
+  }
+  .portfolio-main-page-div img {
+    width: 90%;
+    margin: 2px;
   }
 }/*# sourceMappingURL=Portfolio.css.map */

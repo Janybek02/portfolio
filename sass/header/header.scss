@@ -2,7 +2,7 @@
   // margin: 0 auto;
   width: 97%;
   position: fixed;
-  top: 80vh;
+  top: 85vh;
   // position: absolute;
   left: 0;
   right: 0;
@@ -106,6 +106,23 @@
         .house{
           p{
             font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .header{
+    &-main{
+      height: 50px;
+      width: 100%;
+      &-page{
+        
+        .house{
+          p{
+            
+            display: none;
           }
         }
       }

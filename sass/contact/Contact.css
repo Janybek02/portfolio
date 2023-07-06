@@ -79,4 +79,13 @@
   width: 100%;
   border: none;
   background: none;
+}
+
+@media (max-width: 350px) {
+  .contact-talk {
+    width: 100%;
+  }
+  .contact-talk-div {
+    width: 100%;
+  }
 }/*# sourceMappingURL=Contact.css.map */

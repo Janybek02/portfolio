@@ -104,6 +104,44 @@
 @media (max-width: 1500px) {
   .about{
     width: 100%;
-  
+   
+  }
+}
+@media (max-width: 480px) {
+  .about{
+    width: 100%;
+    &-main{
+      &-work{
+        width: 100%;
+        &-page{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 410px) {
+  .about{
+    
+    &-main{
+      margin: 0;
+      &-work{
+        
+        &-page{
+          display: flex;
+          flex-wrap: wrap;
+          text-align: center;
+          justify-content: center;
+         &-div{
+          margin: 0 5px;
+         }
+        }
+      }
+      &-img{
+        img{
+          width: 100%;
+        }
+      }
+    }
   }
 }

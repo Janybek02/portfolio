@@ -74,4 +74,12 @@
   .skills-task {
     margin: 100px 0 50px 0;
   }
+}
+@media (max-width: 415px) {
+  .skills {
+    width: 100%;
+  }
+  .skills-task-front {
+    margin: 20px 0;
+  }
 }/*# sourceMappingURL=Skills.css.map */
