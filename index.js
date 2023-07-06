@@ -34,7 +34,7 @@ const scrollLeft = document.querySelector(".home-main-left")
 const main = document.querySelector(".home-main")
 const headerScroll = (event) =>{
     const scrollPosition = event.target.scrollingElement.scrollTop;
-    if (window.innerWidth > 620){
+    if (window.innerWidth > 937){
       if (scrollPosition > 180){
         main.style.opacity = 0;
         main.style.translate = "0 -50px";

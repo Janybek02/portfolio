@@ -1,0 +1,97 @@
+.header {
+  width: 97%;
+  position: fixed;
+  top: 80vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.header-main {
+  position: relative;
+  width: 700px;
+  height: 70px;
+  background: #272727;
+  border-radius: 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.header-main-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-main-page .house {
+  text-align: center;
+}
+.header-main-page .house i {
+  margin: 10px 10px 0 0;
+  font-size: 20px;
+  color: #ffffff;
+}
+.header-main-page .house p {
+  margin: 0 10px 0 0;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+.header-main-page .house:hover i {
+  color: re;
+}
+.header-main-page .house:hover p {
+  color: aqua;
+}
+.header-button {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.header-button i {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.div {
+  margin: 0 auto;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  top: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.div-button i {
+  position: relative;
+  top: 0;
+  animation: button 2s linear 2s infinite alternate;
+}
+
+@keyframes button {
+  0% {
+    top: 5px;
+  }
+  25% {
+    top: 10px;
+  }
+  50% {
+    top: 20px;
+  }
+  75% {
+    top: 10px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@media (max-width: 750px) {
+  .header-main-page .house p {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=header.css.map */

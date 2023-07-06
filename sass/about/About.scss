@@ -1,6 +1,6 @@
 .about{
     background: #FFFFFF;
-     width: 100%;
+     width: 1500px;
      min-height: 100vh;
      // display: flex;
      // // justify-content: s;
@@ -20,7 +20,7 @@
      justify-content: space-around;
      flex-wrap: wrap;
      align-items: center;
-     margin: 50px 150px 0 150px;
+     margin: 50px 10px 0 10px;
     
      &-img{
        img{
@@ -100,3 +100,10 @@
      }
    }
  }
+ 
+@media (max-width: 1500px) {
+  .about{
+    width: 100%;
+  
+  }
+}

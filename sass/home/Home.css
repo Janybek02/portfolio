@@ -1,0 +1,142 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  font-family: "Nunito", sans-serif;
+  width: 1550px;
+  min-height: 90vh;
+  background: #FFFFFF;
+}
+.home-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  margin: 100px 70px 0px 70px;
+}
+.home-main-div {
+  padding: 60px 0 0 0;
+}
+.home-main-div-i {
+  padding: 20px;
+}
+.home-main-div-i i {
+  font-size: 25px;
+}
+.home-main-center {
+  width: 500px;
+}
+.home-main-center-div {
+  display: flex;
+  justify-content: space-around;
+  height: 20px;
+  align-items: center;
+  width: 300px;
+}
+.home-main-center-div-div {
+  width: 70px;
+  height: 2px;
+  background: #272727;
+}
+.home-main-center-div p {
+  margin: 0px 20px 0 0;
+}
+.home-main-center h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 50px;
+}
+.home-main-center p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+.home-main-left {
+  padding: 20px 0 0 0;
+}
+.home-main-left img {
+  border: 4px solid #0F0742;
+  border-radius: 54% 46% 32% 68%/53% 50% 50% 47%;
+}
+.home-scroll {
+  padding: 80px 0px 0px 140px;
+  width: 100px;
+  top: 0;
+  position: relative;
+}
+.home-scroll p {
+  rotate: -90deg;
+  position: absolute;
+  top: 1px;
+  left: 110px;
+}
+.home-scroll a {
+  color: #272727;
+  position: relative;
+  top: 0;
+  left: 1px;
+  font-size: 25px;
+  animation: myfirst 2s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+  0% {
+    top: 5px;
+  }
+  25% {
+    top: 10px;
+  }
+  50% {
+    top: 20px;
+  }
+  75% {
+    top: 10px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@media (max-width: 1600px) {
+  .home {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .home {
+    width: 100%;
+  }
+  .home-main {
+    margin: 100px 70px 0px 70px;
+  }
+}
+@media (max-width: 1100px) {
+  .home-main {
+    margin: 100px 40px 0px 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .home-main {
+    margin: 100px 3% 0px 3%;
+  }
+}
+@media (max-width: 1000px) {
+  .home-main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 615px) {
+  .home-main {
+    flex-direction: column-reverse;
+  }
+  .home-main-center {
+    width: 100%;
+  }
+  .home-main-div {
+    display: flex;
+    padding: 20px 0 0 0;
+  }
+}/*# sourceMappingURL=Home.css.map */
