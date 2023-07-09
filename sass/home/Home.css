@@ -4,17 +4,16 @@
 }
 
 .container {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 10px 0 10px;
+  margin: 0 15px 0 15px;
 }
 
 @media (max-width: 450px) {
   .container {
-    margin: 0 5px 0 5px;
+    margin: 0 15px 0 15px;
   }
 }
 .home {
@@ -164,7 +163,7 @@
     width: 50px;
   }
   .home-main-left img {
-    width: 100%;
+    width: 94%;
   }
 }
 @media (max-width: 300px) {
@@ -173,8 +172,5 @@
   }
   .home-main-center-div-div {
     width: 50px;
-  }
-  .home-main-left img {
-    width: 100%;
   }
 }/*# sourceMappingURL=Home.css.map */

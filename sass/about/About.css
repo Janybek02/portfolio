@@ -97,7 +97,7 @@
     width: 100%;
   }
   .about-main {
-    margin: 20px 7px 0 0;
+    margin: 20px 0 0 0;
   }
   .about-main-work {
     width: 100%;
@@ -108,7 +108,7 @@
 }
 @media (max-width: 410px) {
   .about-main {
-    margin: 20px 7px 0 0;
+    margin: 20px 0 0 0;
   }
   .about-main-work-page {
     display: flex;
