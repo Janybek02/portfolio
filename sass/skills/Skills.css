@@ -37,7 +37,7 @@
 .skills-task-front-page {
   display: flex;
   justify-content: space-around;
-  margin: -14px 0 0 0;
+  margin: 0 0 0 0;
 }
 .skills-task-front-page-div {
   display: flex;
