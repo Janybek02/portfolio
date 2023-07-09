@@ -92,6 +92,17 @@
     width: 100%;
   }
 }
+@media (max-width: 900px) {
+  .about-main-work-page {
+    margin: 0;
+  }
+  .about-main-work-text {
+    margin: 30px 0 0 0;
+  }
+  .about-main-work-btn {
+    margin: 40px 0 0 0;
+  }
+}
 @media (max-width: 480px) {
   .about {
     width: 100%;

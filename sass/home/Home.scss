@@ -146,14 +146,26 @@
   .home {
     &-main {
       margin: 100px 3% 0px 3%;
+      display: flex;
+      flex-wrap: wrap;
     }
   }
 }
-@media (max-width: 1000px) {
+
+@media (max-width: 900px) {
   .home {
     &-main {
       display: flex;
       flex-wrap: wrap;
+      &-work{
+        
+      }
+      &-text{
+        
+      }
+      &-btn{
+        margin: 40px 0 0 0;
+      }
     }
   }
 }

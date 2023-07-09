@@ -134,12 +134,17 @@
 @media (max-width: 1000px) {
   .home-main {
     margin: 100px 3% 0px 3%;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .home-main {
     display: flex;
     flex-wrap: wrap;
+  }
+  .home-main-btn {
+    margin: 40px 0 0 0;
   }
 }
 @media (max-width: 615px) {
