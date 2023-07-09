@@ -79,6 +79,9 @@
   .skills {
     width: 100%;
   }
+  .skills-task {
+    margin: 50px 7px 20px 0;
+  }
   .skills-task-front {
     margin: 20px 0;
   }
