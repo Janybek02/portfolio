@@ -26,6 +26,7 @@
 }
 .header-main-page .house {
   text-align: center;
+  text-decoration: none;
 }
 .header-main-page .house i {
   margin: 10px 10px 0 0;
@@ -39,7 +40,7 @@
   font-size: 20px;
 }
 .header-main-page .house:hover i {
-  color: re;
+  color: aqua;
 }
 .header-main-page .house:hover p {
   color: aqua;
@@ -99,6 +100,9 @@
   .header-main {
     height: 50px;
     width: 100%;
+  }
+  .header-main-page .house i {
+    margin-top: 12px;
   }
   .header-main-page .house p {
     display: none;

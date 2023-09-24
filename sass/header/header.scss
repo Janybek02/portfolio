@@ -28,7 +28,7 @@
       align-items: center;
       .house {
         text-align: center;
-
+        text-decoration: none;
         i {
           margin: 10px 10px 0 0;
           font-size: 20px;
@@ -43,7 +43,7 @@
       }
       .house:hover {
         i {
-          color: re;
+          color: aqua;
         }
         p {
           color: aqua;
@@ -120,6 +120,9 @@
       &-page{
         
         .house{
+          i{
+            margin-top: 12px;
+          }
           p{
             
             display: none;

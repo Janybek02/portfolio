@@ -14,57 +14,10 @@
   font-family: "Nunito", sans-serif;
   color: black;
 }
-.skills-task {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 100px 50px 20px 50px;
-}
-.skills-task-front {
-  width: 400px;
-  height: 300px;
-  border-radius: 20px;
-  margin: 20px;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
-.skills-task-front-sub {
-  color: #272727;
-  font-family: "Nunito", sans-serif;
-  font-size: 20px;
-  margin: 30px 0 15px 0;
-}
-.skills-task-front-page {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 0 0 0;
-}
-.skills-task-front-page-div {
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
-}
-.skills-task-front-page-div .basic {
-  margin: -20px 0 13px -5px;
-  font-size: 15px;
-  color: #272727;
-  font-family: "Nunito", sans-serif;
-}
-.skills-task-front-page-div-main {
-  display: flex;
-  justify-content: start;
-  text-align: center;
-  margin: 4px -50px 0 -25px;
-}
-.skills-task-front-page-div-main i {
-  margin: 26px 10px 0px -5px;
-}
-.skills-task-front-page-div-main p {
-  padding: 2px 0 0 0;
-  font-size: 18px;
-  color: #272727;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
+.skills_subject_second_html_table {
+  width: 300px;
+  height: 30px;
+  background: #272727;
 }
 
 @media (max-width: 1500px) {
