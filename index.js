@@ -29,10 +29,7 @@ const h2 = document.querySelector(".h2")
   const p = document.querySelector(".p")
   const div = document.querySelector(".home-main-center-page-div-div")
   const div_p = document.querySelector(".div-p")
-  h2.style.opacity = "0"
-   p.style.opacity = "0"
-   div.style.opacity = "0"
-   div_p.style.opacity = "0"
+  
 const h2Animation = (h2, ) =>{
   h2.style.opacity = "1"
 }
