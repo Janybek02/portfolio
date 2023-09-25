@@ -25,15 +25,41 @@ const headerRomeve = () => {
   })
 }
 headerRomeve()
-
+const h2 = document.querySelector(".h2")
+  const p = document.querySelector(".p")
+  const div = document.querySelector(".home-main-center-page-div-div")
+  const div_p = document.querySelector(".div-p")
+  h2.style.opacity = "0"
+   p.style.opacity = "0"
+   div.style.opacity = "0"
+   div_p.style.opacity = "0"
+const h2Animation = (h2, ) =>{
+  h2.style.opacity = "1"
+}
+const pAnimation = (h2, ) =>{
+  h2.style.opacity = "1"
+}
+const divAnimation = (h2, p ) =>{
+  h2.style.opacity = "1"
+  p.style.opacity = "1"
+}
+setTimeout(() => {
+  divAnimation(div, div_p)
+}, 1000)
+setTimeout(() => {
+  pAnimation(p)
+}, 1500)
+setTimeout(() => {
+  h2Animation(h2, )
+}, 500)
 
 
 const scrollDiv = document.querySelector(".home-main-div")
 const scrollC = document.querySelector(".home-main-center")
 const scrollLeft = document.querySelector(".home-main-left")
 const main = document.querySelector(".home-main")
-const headerScroll = (event) =>{
-    const scrollPosition = event.target.scrollingElement.scrollTop;
+const headerScroll = () =>{
+    const scrollPosition = window.scrollX;
     if (window.innerWidth > 937){
       if (scrollPosition > 180){
         main.style.opacity = 0;
@@ -68,50 +94,4 @@ const headerScroll = (event) =>{
    
 }
 
-document.addEventListener("scroll", (headerScroll))
-
-const skills_1 = document.querySelector(".skills-task-front") 
-const skills_2 = document.querySelector("#skills-task-front") 
-const tascsScroll = (event) =>{
-      const position = event.target.scrollingElement.scrollTop
-      if (innerWidth > 926 ) {
-        if (position > 1165){
-
-          skills_1.style.opacity = 1
-          skills_1.style.transition = "0.5s"
-          skills_1.style.scale = 1
-        } else {
-          skills_1.style.opacity = 0
-          skills_1.style.scale = 0
-        }
-        if (position > 1165){
-          skills_2.style.opacity = 1
-          skills_2.style.transition = "0.5s"
-          skills_2.style.scale = 1
-        } else {
-          skills_2.style.opacity = 0
-          skills_2.style.scale = 0
-        }
-       
-      }else {
-        if (position > 1645){
-  
-          skills_1.style.opacity = 1
-          skills_1.style.transition = "0.5s"
-          skills_1.style.scale = 1
-        } else {
-          skills_1.style.opacity = 0
-          skills_1.style.scale = 0
-        }
-        if (position > 1963){
-          skills_2.style.opacity = 1
-          skills_2.style.transition = "0.5s"
-          skills_2.style.scale = 1
-        } else {
-          skills_2.style.opacity = 0
-          skills_2.style.scale = 0
-        }
-      }
-}
-document.addEventListener("scroll", tascsScroll)
-
+headerScroll()
