@@ -106,14 +106,17 @@
     width: 100%;
   }
 }
-@media (max-width: 415px) {
+@media (max-width: 475px) {
   .skills {
     width: 100%;
   }
-  .skills .skills_subject {
+  .skills h1 {
+    font-size: 30px;
+  }
+  .skills_subject {
     width: 100%;
   }
-  .skills .skills_subject-page-table {
-    width: auto;
+  .skills_subject-page-table {
+    width: 100%;
   }
 }/*# sourceMappingURL=Skills.css.map */

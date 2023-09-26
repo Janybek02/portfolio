@@ -205,11 +205,12 @@
     &-main {
       margin: 0px 0 0px 0;
       &-div {
-        top: 915px;
-        right: 87px;
+        width: 100%;
+       
         &-page {
           width: 100%;
           display: flex;
+          justify-content: center;
         }
       }
       &-center {
@@ -245,7 +246,7 @@
         &-div {
           // width: 100%;
           &-div {
-            top: 750px;
+            
             width: 50px;
           }
           p {
@@ -255,6 +256,7 @@
       }
       &-left {
         width: 100%;
+        margin: 90px 0 0 0 ;
         img {
           top: 124px;
           width: 94%;

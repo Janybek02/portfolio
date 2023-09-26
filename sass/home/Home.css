@@ -175,12 +175,12 @@
     margin: 0px 0 0px 0;
   }
   .home-main-div {
-    top: 915px;
-    right: 87px;
+    width: 100%;
   }
   .home-main-div-page {
     width: 100%;
     display: flex;
+    justify-content: center;
   }
   .home-main-center {
     width: 100%;
@@ -206,7 +206,6 @@
     font-size: 17px;
   }
   .home-main-center-div-div {
-    top: 750px;
     width: 50px;
   }
   .home-main-center-div p {
@@ -214,6 +213,7 @@
   }
   .home-main-left {
     width: 100%;
+    margin: 90px 0 0 0;
   }
   .home-main-left img {
     top: 124px;

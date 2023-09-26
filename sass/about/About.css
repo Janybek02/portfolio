@@ -103,9 +103,12 @@
     margin: 40px 0 0 0;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 474px) {
   .about {
     width: 100%;
+  }
+  .about h1 {
+    font-size: 30px;
   }
   .about-main {
     margin: 20px 0 0 0;

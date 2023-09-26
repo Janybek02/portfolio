@@ -114,21 +114,23 @@
     }
   }
 }
-@media (max-width: 415px) {
+@media (max-width: 475px) {
   .skills{
     width: 100%;
     
-    .skills{
-     
+    
+     h1{
+      font-size: 30px;
+     }
       &_subject{
         width: 100%;
         &-page{
           &-table{
-            width: auto;
+            width: 100%;
           }
         }
       }
-    }
+  
     
   }
 }
