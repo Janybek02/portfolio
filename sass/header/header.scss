@@ -1,5 +1,10 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .header {
   // margin: 0 auto;
+  scroll-behavior: auto;
   width: 97%;
   position: fixed;
   top: 85vh;

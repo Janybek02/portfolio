@@ -36,7 +36,7 @@ const homeAnimaion = () => {
     h2.style.opacity = "1"
     h2.style.transition = "0.4s";
     
-  }, 500)
+  }, 1000)
   setTimeout(() => {
     p.style.transform = "translate(0, 0)"
     p.style.opacity = "1"
@@ -104,7 +104,6 @@ window.addEventListener("scroll" , function(){
 
 const skillScroll = (table) => {
   const innerWidth = window.innerWidth 
-  console.log(table[0]);
   let num 
   const boool = innerWidth  < 1000 ? (innerWidth < "800" ? (innerWidth < 500 ? num = "10" : num ="20" ) : num = "50") : num = "100" 
    

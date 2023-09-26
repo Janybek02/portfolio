@@ -1,4 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
+  scroll-behavior: auto;
   width: 97%;
   position: fixed;
   top: 85vh;
