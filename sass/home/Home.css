@@ -35,11 +35,15 @@
 }
 .home-main-div-page {
   animation: icons 1s linear 0s 1;
+  display: flex;
+  flex-direction: column;
 }
-.home-main-div-page-i {
-  padding: 20px;
+.home-main-div-page a {
+  text-decoration: none;
+  color: #272727;
+  padding: 50px 0 0 0;
 }
-.home-main-div-page-i i {
+.home-main-div-page a i {
   font-size: 25px;
 }
 .home-main-center {
@@ -180,7 +184,8 @@
   .home-main-div-page {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: inherit;
+    justify-content: space-around;
   }
   .home-main-center {
     width: 100%;

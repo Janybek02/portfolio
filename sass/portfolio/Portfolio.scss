@@ -43,16 +43,16 @@
       justify-content: center;
       &-div {
         width: 400px;
-        padding: 0 0  20px 0;
+        padding: 0 0  0 0;
         background: white;
-        border-radius: 20px;
+        border-radius: 5px;
         box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
         margin: 30px 30px;
         img {
-          width: 350px;
-          border-radius: 20px;
+          width: 100%;
+          border-radius: 5px;
           // text-align: center;
-          margin: 15px 0 0 25px;
+          margin: 0;
         }
         &-true {
           .p {
@@ -62,13 +62,14 @@
             margin: 10px 10px 0 25px;
             font-weight: 700;
           }
-          button {
+          a {
             margin: 10px 0px 0 24px;
             font-size: 15px;
             color: #272727;
             font-family: "Nunito", sans-serif;
             background: none;
             border: none;
+            text-decoration: none;
           }
         }
       }
