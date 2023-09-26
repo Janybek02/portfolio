@@ -36,7 +36,7 @@ const homeAnimaion = () => {
     h2.style.opacity = "1"
     h2.style.transition = "0.4s";
     
-  }, 1000)
+  }, 500)
   setTimeout(() => {
     p.style.transform = "translate(0, 0)"
     p.style.opacity = "1"
@@ -103,11 +103,14 @@ window.addEventListener("scroll" , function(){
   const scrollPosition = window.scrollY;
 
 const skillScroll = (table) => {
-  // const innerWidth = document.window.innerWidth
+  const innerWidth = window.innerWidth 
   console.log(table[0]);
+  let num 
+  const boool = innerWidth  < 1000 ? (innerWidth < "800" ? (innerWidth < 500 ? num = "10" : num ="20" ) : num = "50") : num = "100" 
+   
   console.log(scrollPosition);
   if (scrollPosition < 450){
-    table[0].style.transform = "translate(-100%, 0)"
+    table[0].style.transform = `translate(-${num}%, 0)`
     table[0].style.opacity = "0"
     table[0].style.transition = "0.4s";
   } else {
@@ -116,7 +119,7 @@ const skillScroll = (table) => {
     table[0].style.transition = "0.4s";
   }
   if (scrollPosition < 600){
-    table[1].style.transform = "translate(-100%, 0)"
+    table[1].style.transform = `translate(-${num}%, 0)`
     table[1].style.opacity = "0"
     table[1].style.transition = "0.4s";
   } else {
@@ -126,7 +129,7 @@ const skillScroll = (table) => {
   }
 
   if (scrollPosition < 850){
-    table[2].style.transform = "translate(-100%, 0)"
+    table[2].style.transform = `translate(-${num}%, 0)`
     table[2].style.opacity = "0"
     table[2].style.transition = "0.4s";
   } else {
@@ -135,7 +138,7 @@ const skillScroll = (table) => {
     table[2].style.transition = "0.4s";
   }
   if (scrollPosition < 550){
-    table[3].style.transform = "translate(100%, 0)"
+    table[3].style.transform = `translate(${num}%, 0)`
     table[3].style.opacity = "0"
     table[3].style.transition = "0.4s";
   } else {
@@ -144,7 +147,7 @@ const skillScroll = (table) => {
     table[3].style.transition = "0.4s";
   }
   if (scrollPosition < 700){
-    table[4].style.transform = "translate(100%, 0)"
+    table[4].style.transform =`translate(${num}%, 0)`
     table[4].style.opacity = "0"
     table[4].style.transition = "0.4s";
   } else {
@@ -153,7 +156,7 @@ const skillScroll = (table) => {
     table[4].style.transition = "0.4s";
   }
   if (scrollPosition < 950){
-    table[5].style.transform = "translate(100%, 0)"
+    table[5].style.transform = `translate(${num}%, 0)`
     table[5].style.opacity = "0"
     table[5].style.transition = "0.4s";
   } else {
