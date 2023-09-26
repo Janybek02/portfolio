@@ -3,6 +3,9 @@
   width: 1500px;
   min-height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .skills h1 {
   font-size: 40px;
@@ -14,9 +17,76 @@
   font-family: "Nunito", sans-serif;
   color: black;
 }
-.skills_subject_second_html_table {
-  width: 300px;
-  height: 30px;
+.skills_subject {
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+.skills_subject-page {
+  margin: 60px 0 0 0;
+  height: 423px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skills_subject-page-table {
+  width: 200px;
+  height: 50px;
+  background: #272727;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.skills_subject-page-table .table-html {
+  width: 50px;
+}
+.skills_subject-page-table .text-html {
+  color: #FFFFFF;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+.skills_subject-page2 {
+  margin: 155px 0 0 0;
+  height: 423px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skills_subject-page2-table {
+  width: 200px;
+  height: 50px;
+  background: #272727;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.skills_subject-page2-table .table-html {
+  width: 50px;
+}
+.skills_subject-page2-table .text-html {
+  color: #FFFFFF;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+.skills_subject-line-roud {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+}
+.skills_subject-line-roud .line {
+  width: 2px;
+  height: 70px;
+  background: rgb(122, 122, 122);
+}
+.skills_subject-line-roud .round {
+  border: #565454;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
   background: #272727;
 }
 
@@ -28,14 +98,22 @@
     margin: 100px 0 50px 0;
   }
 }
+@media (max-width: 800px) {
+  .skills {
+    width: 100%;
+  }
+  .skills_subject {
+    width: 100%;
+  }
+}
 @media (max-width: 415px) {
   .skills {
     width: 100%;
   }
-  .skills-task {
-    margin: 50px 7px 20px 0;
+  .skills .skills_subject {
+    width: 100%;
   }
-  .skills-task-front {
-    margin: 20px 0;
+  .skills .skills_subject-page-table {
+    width: auto;
   }
 }/*# sourceMappingURL=Skills.css.map */

@@ -28,15 +28,13 @@
     height: 100%;
     margin: 130px 70px 0px 70px;
     &-div {
-      position: relative;
       padding: 0 0 0 0;
       width: 40px;
       &-page {
-        animation: div 1s linear 0s 1 alternate;
-        position: absolute;
         // padding: 60px 0 0 0;
-        top: -120px;
-
+        animation: icons 1s linear 0s 1 ;
+          
+          
         &-i {
           padding: 20px;
           i {
@@ -47,7 +45,7 @@
     }
     &-center {
       width: 500px;
-      position: relative;
+
       height: 300px;
       &-page {
         width: 500px;
@@ -59,55 +57,47 @@
         top: 0px;
         &-div {
           display: flex;
-          justify-content: space-around;
+
           height: 20px;
           align-items: center;
           width: 300px;
 
           &-div {
-            position: absolute;
-            top: 149px;
-            left: 0px;
+            margin: 0 30px 0 0;
+            transform: translate(0,100% );
             width: 70px;
             height: 2px;
             opacity: 0;
             background: #272727;
-            animation: div_one 1s linear 1s alternate;
           }
           .div-p {
-            position: absolute;
+            transform: translate(0,100% );
             top: 138px;
             left: 93px;
             opacity: 0;
             margin: 0px 20px 0 0;
-            animation: div-p 1s linear 1s alternate;
           }
         }
         h1 {
-          position: absolute;
           top: 0;
           animation: h1 1s linear 0s alternate;
           font-family: "Nunito", sans-serif;
           font-size: 50px;
-
         }
         h2 {
-          animation: h2 1s linear 0.5s alternate;
-opacity: 0;
-          position: absolute;
           top: 65px;
           font-family: "Nunito", sans-serif;
           font-size: 20px;
-          margin: 20px 0 0 0;
+          margin: 0 0 0 0;
+          transform: translate(0,110% );
+          opacity: 0;
         }
         .p {
-          animation: p 1s linear 1.5s 1 alternate;
-          position: absolute;
           top: 160px;
           font-family: "Nunito", sans-serif;
           font-size: 20px;
-          margin: 20px 0 0 0;
           opacity: 0;
+          transform: translate(0,50% );
         }
       }
     }
@@ -116,80 +106,55 @@ opacity: 0;
       padding: 20px 0 0 0;
 
       // animation: left 2s linear 0s 1 alternate;
-      position: relative;
+
       width: 450px;
       height: 300px;
       img {
         // border: 4px solid #0f0742;
         width: 450px;
-        top: 0px;
-        position: absolute;
-        animation: left 1s linear 0s 1 alternate;
+        // transform: translate(100%, 0);
+
+        animation: left 1s linear 0s 1 ;
         right: 0;
+        
         // border-radius: 54% 46% 32% 68% / 53% 50% 50% 47%;
       }
     }
   }
 }
-@keyframes div {
+@keyframes left {
   0% {
-    left: -30px;
+    transform: translate(10%, 0);
+    opacity: 0;
+
   }
   50% {
-    left: 0;
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@keyframes icons {
+  0% {
+    transform: translate(-50%, 0);
+    opacity: 0;
+
+  }
+  50% {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 }
 @keyframes h1 {
   0% {
-    top: -30px;
-  }
-  50% {
-    top: 0;
-  }
-}
-@keyframes h2 {
-  0% {
-    top: 95px;
-  }
-  50% {
-    top: 65px;
-  }
-}
-@keyframes p {
-  0% {
-    top: 180px;
-  }
-  50% {
-    top: 160px;
-  }
-}
-@keyframes div_one {
-  0% {
-    top: 169px;
-  }
-  50% {
-    top: 149px;
-  }
-}
-@keyframes div-p {
-  0% {
-    top: 159px;
-  }
-  50% {
-    top: 138px;
-  }
-}
-@keyframes left {
-  0% {
-    right: -30px;
+    transform: translate(0, -50%);
     opacity: 0;
+
   }
   50% {
-    right: 0;
+    transform: translate(0, 0);
     opacity: 1;
   }
 }
-
 @media (max-width: 1600px) {
   .home {
     width: 100%;
@@ -243,6 +208,7 @@ opacity: 0;
         top: 915px;
         right: 87px;
         &-page {
+          width: 100%;
           display: flex;
         }
       }
@@ -270,7 +236,7 @@ opacity: 0;
       &-center {
         height: 225px;
         h1 {
-          top: 20px;
+          
           font-size: 30px;
         }
         p {
@@ -301,10 +267,7 @@ opacity: 0;
   .home {
     &-main {
       &-div {
-        // width: 100%;
-
-        top: 818px;
-        width: 50px;
+        width: 100%;
       }
     }
   }

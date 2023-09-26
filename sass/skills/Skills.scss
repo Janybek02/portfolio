@@ -3,6 +3,9 @@
     width: 1500px;
     min-height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     h1{
       font-size: 40px;
       font-family: 'Nunito', sans-serif; 
@@ -15,16 +18,82 @@
       color: black;
     }
     &_subject{
-      &_second{
-        &_html{
-          &_table{
-            width: 300px;
-            height: 30px;
-            background: #272727;
-          }
+     width: 700px;
+     display: flex;
+     
+     justify-content: space-around;
+     &-page{
+      margin: 60px 0 0 0;
+      height: 423px;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
 
+      &-table{
+        width: 200px;
+        height: 50px;
+        background: #272727;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        .table-html{
+          width: 50px;
+        }
+        .text-html{
+          color: #FFFFFF;
+          font-family: 'Nunito', sans-serif; 
+          font-size: 20px;
         }
       }
+     }
+     &-page2{
+      margin: 155px 0 0 0;
+      height: 423px;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+
+      &-table{
+        width: 200px;
+        height: 50px;
+        background: #272727;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        .table-html{
+          width: 50px;
+        }
+        .text-html{
+          color: #FFFFFF;
+          font-family: 'Nunito', sans-serif; 
+          font-size: 20px;
+        }
+      }
+     }
+     &-line{ 
+      &-roud{
+          flex-direction: column;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 20px;
+        .line{
+          // margin: 0 20px 0 0;
+          width: 2px;
+          height: 70px;
+          background: rgb(122, 122, 122);
+        }
+        .round{
+          border: #565454;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background: #272727;
+        }
+      }
+     }
     }
   
   }
@@ -37,15 +106,29 @@
     }
   }
 }
+@media (max-width: 800px) {
+  .skills{
+    width: 100%;
+    &_subject{
+      width: 100%;
+    }
+  }
+}
 @media (max-width: 415px) {
   .skills{
     width: 100%;
-    &-task{
-      margin: 50px 7px 20px 0;
-      &-front{
-        margin: 20px 0;
+    
+    .skills{
+     
+      &_subject{
+        width: 100%;
+        &-page{
+          &-table{
+            width: auto;
+          }
+        }
       }
-      
     }
+    
   }
 }
