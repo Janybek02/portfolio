@@ -1,7 +1,7 @@
 .portfolio {
   background: #ffffff;
   width: 100%;
-  min-height: 110vh;
+  min-height: 90vh;
   // text-align: center;
   display: flex;
   flex-direction: column;
@@ -12,38 +12,36 @@
     font-family: "Nunito", sans-serif;
     margin: 0 0 -5px 0;
   }
+  .website {
+    color: #272727;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+  }
   p {
     font-size: 20px;
     color: #272727;
     font-family: "Nunito", sans-serif;
   }
   &-main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 90%;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
 
-    &-button {
-      button {
-        transition: 0.5s;
-        width: 200px;
-        height: 50px;
-        font-size: 20px;
-        color: #ffffff;
-        font-family: "Nunito", sans-serif;
-        background: #272727;
-        border-radius: 10px;
-        // margin: 62px 0 0 0;
-      }
-    }
-    &-page {
-      margin: 50px 10px 0 10px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+   
+    &-page {  
+      display: grid;
+      grid-auto-flow: column;
+      scroll-behavior: auto;
+      gap: 1.2rem;
+      overflow-x: auto;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+
       &-div {
         width: 400px;
-        padding: 0 0  0 0;
+        padding: 0 0 0 0;
         background: white;
         border-radius: 5px;
         box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
@@ -74,27 +72,30 @@
         }
       }
     }
+    &-page::-webkit-scrollbar{
+      display: none;
+    }
   }
 }
 
 @media (max-width: 1200px) {
-  .portfolio{
-      width: 100%;
-    &-main{
-      &-page{
+  .portfolio {
+    width: 100%;
+    &-main {
+      &-page {
         // margin: ;
       }
     }
   }
 }
 @media (max-width: 500px) {
-  .portfolio{
-      width: 100%;
-    &-main{
-      &-page{
-        margin: 50px 0 0 0 ;
+  .portfolio {
+    width: 100%;
+    &-main {
+      &-page {
+        margin: 50px 0 0 0;
         text-align: center;
-        &-div{
+        &-div {
           margin: 20px 0;
         }
       }
@@ -102,15 +103,13 @@
   }
 }
 @media (max-width: 400px) {
-  .portfolio{
-
-    &-main{
-      &-page{
-       
-        &-div{
+  .portfolio {
+    &-main {
+      &-page {
+        &-div {
           width: 100%;
-          
-          img{
+
+          img {
             width: 90%;
             margin: 2px;
           }

@@ -1,7 +1,7 @@
 .portfolio {
   background: #ffffff;
   width: 100%;
-  min-height: 110vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,32 +12,28 @@
   font-family: "Nunito", sans-serif;
   margin: 0 0 -5px 0;
 }
+.portfolio .website {
+  color: #272727;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
 .portfolio p {
   font-size: 20px;
   color: #272727;
   font-family: "Nunito", sans-serif;
 }
 .portfolio-main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.portfolio-main-button button {
-  transition: 0.5s;
-  width: 200px;
-  height: 50px;
-  font-size: 20px;
-  color: #ffffff;
-  font-family: "Nunito", sans-serif;
-  background: #272727;
-  border-radius: 10px;
+  width: 90%;
 }
 .portfolio-main-page {
-  margin: 50px 10px 0 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 1.2rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
 }
 .portfolio-main-page-div {
   width: 400px;
@@ -67,6 +63,9 @@
   background: none;
   border: none;
   text-decoration: none;
+}
+.portfolio-main-page::-webkit-scrollbar {
+  display: none;
 }
 
 @media (max-width: 1200px) {

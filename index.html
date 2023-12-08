@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="./sass/style.css" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+  
   </head>
   <body>
     <!-- header -->
@@ -31,7 +33,7 @@
               <i class="fa-solid fa-user"></i>
               <p>Me</p>
             </a>
-            
+
             <a href="#portfolio" class="house">
               <i class="fa-solid fa-headphones"></i>
               <p>Portfolio</p>
@@ -60,10 +62,16 @@
               <a href="" class="home-main-div-page-i">
                 <i class="fa-solid fa-envelope"></i> <br />
               </a>
-              <a href="https://github.com/Janybek02" class="home-main-div-page-i">
+              <a
+                href="https://github.com/Janybek02"
+                class="home-main-div-page-i"
+              >
                 <i class="fa-brands fa-github"></i><br />
               </a>
-              <a href="https://www.instagram.com/orzbkv0/" class="home-main-div-page-i">
+              <a
+                href="https://www.instagram.com/orzbkv0/"
+                class="home-main-div-page-i"
+              >
                 <i class="fa-brands fa-instagram"></i> <br />
               </a>
               <a href="" class="home-main-div-page-i">
@@ -114,7 +122,10 @@
             </div>
             <div class="skills_subject-page-table">
               <div class="table-html">
-                <img src="./img/Unofficial_JavaScript_logo_2.svg.png" width="60%" />
+                <img
+                  src="./img/Unofficial_JavaScript_logo_2.svg.png"
+                  width="60%"
+                />
               </div>
               <p class="text-html">JavaScript</p>
             </div>
@@ -122,7 +133,7 @@
               <div class="table-html">
                 <img src="./img/redux.png" width="60%" />
               </div>
-              <p class="text-html">Redux</p>
+              <p class="text-html">Redux/Toolkit</p>
             </div>
           </div>
           <div class="skills_subject-line">
@@ -211,15 +222,18 @@
       <!-- portfoio -->
       <div class="portfolio" id="portfolio">
         <h1>Portfolio</h1>
-        <p>My work</p>
+        <h1 class="website">Web site</h1>
         <div class="portfolio-main">
-          <div class="portfolio-main-button">
-            <button class="website">Web site</button>
-            <button class="mobile">Mobile app</button>
-            <button class="all">All</button>
-          </div>
-          <div class="">
             <div class="portfolio-main-page">
+              <div class="portfolio-main-page-div mob" value="Web all">
+                <img src="./img/movie.png" alt="" />
+                <div class="portfolio-main-page-div-true">
+                  <p class="p">Web site</p>
+                  <a href="https://movie-xi-olive.vercel.app/">
+                    Click me <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
               <div class="portfolio-main-page-div mob" value="Web all">
                 <img src="./img/teplo.png" alt="" />
                 <div class="portfolio-main-page-div-true">
@@ -238,6 +252,15 @@
                   </a>
                 </div>
               </div>
+              <div class="portfolio-main-page-div web" value="mob all">
+                <img src="./img/image.skills.png" alt="" />
+                <div class="portfolio-main-page-div-true">
+                  <p class="p">Web site</p>
+                  <a href="https://store-add-card.vercel.app/">
+                    Click me <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
               <div class="portfolio-main-page-div mob" value="mob all">
                 <img src="./img/pokemon.png" alt="" />
                 <div class="portfolio-main-page-div-true">
@@ -247,8 +270,8 @@
                   </a>
                 </div>
               </div>
+              
             </div>
-          </div>
         </div>
       </div>
 
@@ -295,25 +318,26 @@
             </button>
           </div>
         </div>
-        <!-- <div class="contact-massage">
-          <h1>Write me your project</h1>
-          <div class="contact-massage-div">
-            <div class="contact-massage-div-main">
-              <p>name</p>
-              <input type="name" class="focus" />
-            </div>
-          </div>
-        </div> -->
+        <div class="contact-massage">
+          
+        
       </div>
     </div>
     <!-- Contact -->
 
     <!-- <script src="./aos/aos.js"></script> -->
-    <script src="index.js"></script>
-
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script src="./js/index.js"></script>
+    <script></script>
     <script
       src="https://kit.fontawesome.com/06f8bc234f.js"
       crossorigin="anonymous"
     ></script>
+    
+
+    <script type="text/javascript" src="./js/slick.min.js"></script>
   </body>
 </html>

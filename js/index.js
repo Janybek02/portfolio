@@ -1,5 +1,4 @@
 
-
 const headerRomeve = () => {
   const headerBtn = document.querySelector(".header-button")
   const header = document.querySelector(".header")
@@ -107,7 +106,7 @@ const skillScroll = (table) => {
   let num 
   const boool = innerWidth  < 1000 ? (innerWidth < "800" ? (innerWidth < 500 ? num = "10" : num ="20" ) : num = "50") : num = "100" 
    
-  console.log(scrollPosition);
+
   if (scrollPosition < 450){
     table[0].style.transform = `translate(-${num}%, 0)`
     table[0].style.opacity = "0"
