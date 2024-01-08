@@ -104,15 +104,13 @@
 }
 @media (max-width: 400px) {
   .portfolio {
+    width: 100%;
     &-main {
       &-page {
+        margin: 50px 0 0 0;
+        text-align: center;
         &-div {
-          width: 100%;
-
-          img {
-            width: 90%;
-            margin: 2px;
-          }
+          margin: 20px 0;
         }
       }
     }
