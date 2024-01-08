@@ -16,6 +16,7 @@
     color: #272727;
     font-size: 20px;
     font-family: "Nunito", sans-serif;
+    ///
   }
   p {
     font-size: 20px;
@@ -81,11 +82,6 @@
 @media (max-width: 1200px) {
   .portfolio {
     width: 100%;
-    &-main {
-      &-page {
-        // margin: ;
-      }
-    }
   }
 }
 @media (max-width: 500px) {
@@ -107,7 +103,6 @@
   .portfolio {
     width: 100%;
     &-main {
-     
       &-page {
         margin: 50px 0 0 0;
         text-align: center;
