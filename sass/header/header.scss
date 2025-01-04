@@ -7,7 +7,8 @@ html{
   scroll-behavior: auto;
   width: 97%;
   position: fixed;
-  top: 85vh;
+  top: 86vh;
+  transition-timing-function: 2s;
   // position: absolute;
   left: 0;
   right: 0;
