@@ -16,10 +16,14 @@
     margin: 0 15px 0 15px;
   }
 }
+.h {
+  height: 800px;
+  width: 100%;
+}
+
 .home {
   font-family: "Nunito", sans-serif;
   width: 1550px;
-  min-height: 110vh;
   background: #ffffff;
 }
 .home-main {
@@ -159,6 +163,9 @@
   }
 }
 @media (max-width: 1000px) {
+  .h {
+    height: 933px;
+  }
   .home-main {
     margin: 100px 3% 0px 3%;
     display: flex;
@@ -200,6 +207,9 @@
   }
 }
 @media (max-width: 475px) {
+  .h {
+    height: 860px;
+  }
   .home-main-center {
     height: 225px;
   }
@@ -225,11 +235,17 @@
   }
 }
 @media (max-width: 400px) {
+  .h {
+    height: 798px;
+  }
   .home-main-div {
     width: 100%;
   }
 }
 @media (max-width: 300px) {
+  .h {
+    height: 798px;
+  }
   .home-main-div-div {
     width: 50px;
   }
