@@ -6,8 +6,8 @@ html {
   scroll-behavior: auto;
   width: 97%;
   position: fixed;
-  top: 86vh;
-  transition-timing-function: 2s;
+  top: 88vh;
+  transition-timing-function: 1s;
   left: 0;
   right: 0;
   margin-left: auto;
