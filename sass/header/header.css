@@ -103,6 +103,21 @@ html {
   }
 }
 @media (max-width: 400px) {
+  .header {
+    top: 90vh;
+  }
+  .header-main {
+    height: 50px;
+    width: 100%;
+  }
+  .header-main-page .house i {
+    margin-top: 12px;
+  }
+  .header-main-page .house p {
+    display: none;
+  }
+}
+@media (max-width: 370px) {
   .header-main {
     height: 50px;
     width: 100%;

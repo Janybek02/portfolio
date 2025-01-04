@@ -120,6 +120,28 @@ html{
 }
 @media (max-width: 400px) {
   .header{
+    top: 90vh;
+    &-main{
+      height: 50px;
+      width: 100%;
+      &-page{
+        
+        .house{
+          i{
+            margin-top: 12px;
+          }
+          p{
+            
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .header{
     &-main{
       height: 50px;
       width: 100%;

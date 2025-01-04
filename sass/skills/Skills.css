@@ -115,7 +115,38 @@
   .skills_subject {
     width: 100%;
   }
+  .skills_subject-line-roud .round {
+    width: 20px;
+    height: 20px;
+  }
+  .skills_subject-line-roud .line {
+    height: 74px;
+  }
   .skills_subject-page-table {
+    width: 150px;
+  }
+}
+@media (max-width: 400px) {
+  .skills {
     width: 100%;
+  }
+  .skills h1 {
+    font-size: 30px;
+  }
+  .skills_subject {
+    width: 100%;
+  }
+  .skills_subject-line-roud .round {
+    width: 20px;
+    height: 20px;
+  }
+  .skills_subject-line-roud .line {
+    height: 74px;
+  }
+  .skills_subject-page-table {
+    width: 110px;
+  }
+  .skills_subject-page-table .text-html {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=Skills.css.map */

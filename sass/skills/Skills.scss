@@ -123,10 +123,57 @@
       font-size: 30px;
      }
       &_subject{
+        &-line{
+          &-roud{
+
+            .round{
+              width: 20px;
+              height: 20px;
+            }
+            .line{
+              height: 74px;
+            }
+          }
+        }
         width: 100%;
         &-page{
           &-table{
-            width: 100%;
+              width: 150px;
+          }
+        }
+      }
+  
+    
+  }
+}
+@media (max-width: 400px) {
+  .skills{
+    width: 100%;
+    
+    
+     h1{
+      font-size: 30px;
+     }
+      &_subject{
+        &-line{
+          &-roud{
+
+            .round{
+              width: 20px;
+              height: 20px;
+            }
+            .line{
+              height: 74px;
+            }
+          }
+        }
+        width: 100%;
+        &-page{
+          &-table{
+            width: 110px;
+            .text-html{
+              font-size: 15px;
+            }
           }
         }
       }
