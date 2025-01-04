@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 15px 0 15px;
+  
 }
 @media (max-width: 450px) {
   .container {
@@ -106,15 +107,15 @@
     }
 
     &-left {
-      padding: 20px 0 0 0;
+      margin: 20px 0 0 0;
 
       // animation: left 2s linear 0s 1 alternate;
 
       width: 450px;
-      height: 300px;
+      // height: 300px;
       img {
         // border: 4px solid #0f0742;
-        width: 450px;
+        width: 100%;
         // transform: translate(100%, 0);
 
         animation: left 1s linear 0s 1 ;
@@ -179,7 +180,7 @@
 }
 @media (max-width: 1100px) {
   .home {
-    min-height: 146vh;
+   
     &-main {
       margin: 100px 0 0px 0;
     }
@@ -276,7 +277,7 @@
 }
 @media (max-width: 400px) {
   .home {
-    min-height: 121vh;
+    // min-height: 121vh;
     &-main {
       &-div {
         width: 100%;
