@@ -105,9 +105,11 @@ const skillScroll = (table) => {
   const innerWidth = window.innerWidth 
   let num 
   const boool = innerWidth  < 1000 ? (innerWidth < "800" ? (innerWidth < 500 ? num = "10" : num ="20" ) : num = "50") : num = "100" 
+   console.log(scrollPosition);
+   console.log(table[4]);
    
 
-  if (scrollPosition < 450){
+  if (scrollPosition < 280){
     table[0].style.transform = `translate(-${num}%, 0)`
     table[0].style.opacity = "0"
     table[0].style.transition = "0.4s";
@@ -126,7 +128,7 @@ const skillScroll = (table) => {
     table[1].style.transition = "0.4s";
   }
 
-  if (scrollPosition < 850){
+  if (scrollPosition < 800){
     table[2].style.transform = `translate(-${num}%, 0)`
     table[2].style.opacity = "0"
     table[2].style.transition = "0.4s";
@@ -135,8 +137,8 @@ const skillScroll = (table) => {
     table[2].style.opacity = "1"
     table[2].style.transition = "0.4s";
   }
-  if (scrollPosition < 550){
-    table[3].style.transform = `translate(${num}%, 0)`
+  if (scrollPosition < 1000){
+    table[3].style.transform = `translate(-${num}%, 0)`
     table[3].style.opacity = "0"
     table[3].style.transition = "0.4s";
   } else {
@@ -144,7 +146,7 @@ const skillScroll = (table) => {
     table[3].style.opacity = "1"
     table[3].style.transition = "0.4s";
   }
-  if (scrollPosition < 700){
+  if (scrollPosition < 500){
     table[4].style.transform =`translate(${num}%, 0)`
     table[4].style.opacity = "0"
     table[4].style.transition = "0.4s";
@@ -153,7 +155,7 @@ const skillScroll = (table) => {
     table[4].style.opacity = "1"
     table[4].style.transition = "0.4s";
   }
-  if (scrollPosition < 950){
+  if (scrollPosition < 700){
     table[5].style.transform = `translate(${num}%, 0)`
     table[5].style.opacity = "0"
     table[5].style.transition = "0.4s";
@@ -161,6 +163,24 @@ const skillScroll = (table) => {
     table[5].style.transform = "translate(0, 0)"
     table[5].style.opacity = "1"
     table[5].style.transition = "0.4s";
+  }
+  if (scrollPosition < 900){
+    table[6].style.transform = `translate(${num}%, 0)`
+    table[6].style.opacity = "0"
+    table[6].style.transition = "0.4s";
+  } else {
+    table[6].style.transform = "translate(0, 0)"
+    table[6].style.opacity = "1"
+    table[6].style.transition = "0.4s";
+  }
+  if (scrollPosition < 1100){
+    table[7].style.transform = `translate(${num}%, 0)`
+    table[7].style.opacity = "0"
+    table[7].style.transition = "0.4s";
+  } else {
+    table[7].style.transform = "translate(0, 0)"
+    table[7].style.opacity = "1"
+    table[7].style.transition = "0.4s";
   }
   }
    
