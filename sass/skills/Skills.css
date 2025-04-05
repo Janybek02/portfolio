@@ -45,6 +45,10 @@
   font-family: "Nunito", sans-serif;
   font-size: 20px;
 }
+.skills_subject-page-table .image {
+  width: 100%;
+  height: 100%;
+}
 .skills_subject-page2 {
   margin: 155px 0 0 0;
   height: 423px;
