@@ -163,6 +163,9 @@
   }
 }
 @media (max-width: 850px) {
+  .page .contact {
+    margin-bottom: 120px;
+  }
   .page .contact-talk {
     margin-top: 50px;
   }
@@ -171,9 +174,6 @@
   }
 }
 @media (max-width: 550px) {
-  .contact-talk {
-    width: 100%;
-  }
   .contact-talk-div {
     width: 100%;
   }
@@ -182,9 +182,6 @@
   }
 }
 @media (max-width: 350px) {
-  .contact-talk {
-    width: 100%;
-  }
   .contact-talk-div {
     width: 100%;
   }
