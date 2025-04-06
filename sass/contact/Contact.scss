@@ -82,13 +82,14 @@ text-align: center  ;
           border-radius: 10px;
           margin: 30px 0 91px 0;
         }
-        &-flex >:first-child{
-            margin-right: 10%;
-        }
+        // &-flex >:first-child{
+        //     margin-right: 10%;
+        // }
         &-flex {
           margin: 28px 0px 28px 0px;
           display: flex ;
           align-items: center;
+          gap: 30px;
           justify-content: space-between;
           width: 100%;
           &-main {
@@ -202,8 +203,10 @@ text-align: center  ;
 }
 @media (max-width: 850px) {
   .page{
+    
     .contact {
       &-talk {
+        margin-top: 50px;
         // width: 100%;
         &-div {
           // width: 100%;
@@ -219,7 +222,29 @@ text-align: center  ;
   }
  
 }
-
+@media (max-width: 550px) {
+  .contact {
+    &-talk {
+      width: 100%;
+      &-div {
+        width: 100%;
+        
+      }
+    }
+    &-message{
+      &-div {
+       
+        &-flex{
+          flex-direction: column;
+          
+          &-main {
+            
+        }
+      }
+    }
+  }
+  }
+}
 @media (max-width: 350px) {
   .contact {
     &-talk {

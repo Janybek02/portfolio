@@ -80,13 +80,11 @@
   border-radius: 10px;
   margin: 30px 0 91px 0;
 }
-.page .contact-message-div-flex > :first-child {
-  margin-right: 10%;
-}
 .page .contact-message-div-flex {
   margin: 28px 0px 28px 0px;
   display: flex;
   align-items: center;
+  gap: 30px;
   justify-content: space-between;
   width: 100%;
 }
@@ -165,8 +163,22 @@
   }
 }
 @media (max-width: 850px) {
+  .page .contact-talk {
+    margin-top: 50px;
+  }
   .page .contact-message {
     width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .contact-talk {
+    width: 100%;
+  }
+  .contact-talk-div {
+    width: 100%;
+  }
+  .contact-message-div-flex {
+    flex-direction: column;
   }
 }
 @media (max-width: 350px) {
