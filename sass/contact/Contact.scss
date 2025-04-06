@@ -1,21 +1,28 @@
-.contact{
-    width: 100%;
-    min-height: 100vh;
-    background: #FFFFFF;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-    &-talk{
-      h1{
-      
-      font-size: 40px;
-      color: #272727;
-      font-family: 'Nunito', sans-serif;
+.page {
+  width: 90%;
+  padding-top: 20px;
+  min-height: 130vh;
+  background: #ffffff;
+text-align: center  ;
+ h1 {
+        font-size: 40px;
+        color: #272727;
+        font-family: "Nunito", sans-serif;
       }
-      &-div{
-        margin: 25px 0  0 0;
+  .contact {
+    // flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    
+    &-talk {
+      h1 {
+        font-size: 40px;
+        color: #272727;
+        font-family: "Nunito", sans-serif;
+      }
+      &-div {
+        margin: 25px 0 0 0;
         width: 350px;
         height: 170px;
         background: white;
@@ -25,81 +32,204 @@
         align-items: center;
         box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
         border-radius: 30px;
-        i{
+        i {
           font-size: 35px;
           color: #272727;
-  
         }
-        h1{
+        h1 {
           margin: -20px 0 0 0;
           font-size: 20px;
           color: #272727;
-          font-family: 'Nunito', sans-serif;
+          font-family: "Nunito", sans-serif;
         }
-        P{
+        P {
           margin: -30px 0 0 0;
           font-size: 15px;
           color: #272727;
-          font-family: 'Nunito', sans-serif;
-          a{
+          font-family: "Nunito", sans-serif;
+          a {
             color: #272727;
           }
         }
-        button{
+        button {
           border: none;
           background: none;
           color: #272727;
           font-size: 15px;
-          font-family: 'Nunito', sans-serif;
-          .fa-arrow-right{
+          font-family: "Nunito", sans-serif;
+          .fa-arrow-right {
             color: #272727;
             font-size: 12px;
           }
         }
       }
     }
-    &-massage{
-      height: 200px;
-      h1{ 
-      font-size: 40px;
-      color: #272727;
-      font-family: 'Nunito', sans-serif;
-      }
-      &-div{
-      
-        &-main{
+    &-message {
+      width: 40%;
+     
+      &-div {
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        button{
+          width: 100%;
+          height: 50px;
+          font-size: 20px;
+          color: white;
+          font-family: 'Nunito', sans-serif;
+          background: #272727;
+          border-radius: 10px;
+          margin: 30px 0 91px 0;
+        }
+        &-flex >:first-child{
+            margin-right: 10%;
+        }
+        &-flex {
+          margin: 28px 0px 28px 0px;
+          display: flex ;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          &-main {
+            justify-content: space-around;
+            
+            position: relative;
+            height: 45px;
+            width: 100%;
+            border: 2px solid #272727;
+            display: flex;
+            border-radius: 10px;
+            p {
+              font-size: 18px;
+              padding: 0 7px 0 7px;
+              color: black;
+              font-family: "Nunito", sans-serif;
+              bottom: 35px;
+              background: white;
+              position: absolute;
+              left: 12px;
+            }
+            input {
+              border: none;
+              font-size: 16px;
+              margin-left: 20px;
+              width: 100%;
+              background: none;
+              outline: none;
+            }
+          }
+        }
+        &-main {
           position: relative;
-          height: 50px; 
-          width: 350px;
+          height: 45px;
+          width: 100%;
           border: 2px solid #272727;
           display: flex;
-  
-          p{
-            color: #272727;
-            font-family: 'Nunito', sans-serif;
-            top: 0;
+          border-radius: 10px;
+          p {
+            font-size: 18px;
+            padding: 0 7px 0 7px;
+            color: black;
+            font-family: "Nunito", sans-serif;
+            bottom: 35px;
+            background: white;
             position: absolute;
+            left: 12px;
           }
-          input{
+          input {
+            border: none;
+            font-size: 16px;
+            margin-left: 20px;
             width: 100%;
-           border: none;
-           background: none;
-  
-  
+            background: none;
+            outline: none;
+          }
+        }
+        .footer-map{
+          width: 100%;
+          border-radius: 20px;
+           box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+          .map{
+            width: 100%;
+            border: #272727;
+          border-radius: 20px;
           }
         }
       }
     }
   }
+}
 
+@media (max-width: 1365px) {
+  .page{
+    .contact {
+      &-talk {
+        // width: 100%;
+        &-div {
+          // width: 100%;
+        }
+      }
+      &-message{
+        width: 50%;
+        &-div{
+         
+        }
+      }
+    }
+  }
+ 
+}
 
-  @media (max-width: 350px) {
-    .contact{
-      &-talk{
+@media (max-width: 1053px) {
+  .page{
+    .contact {
+      &-talk {
+        // width: 100%;
+        &-div {
+          // width: 100%;
+        }
+      }
+      &-message{
+        width: 55%;
+        &-div{
+          // width: 500px;
+        }
+      }
+    }
+  }
+ 
+}
+@media (max-width: 850px) {
+  .page{
+    .contact {
+      &-talk {
+        // width: 100%;
+        &-div {
+          // width: 100%;
+        }
+      }
+      &-message{
         width: 100%;
         &-div{
-          width: 100%;
+          
         }
       }
     }
   }
+ 
+}
+
+@media (max-width: 350px) {
+  .contact {
+    &-talk {
+      width: 100%;
+      &-div {
+        width: 100%;
+      }
+    }
+    &-message{
+
+    }
+  }
+}
